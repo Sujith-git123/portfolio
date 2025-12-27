@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-Sujith</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+      <aside class="sidebar">
+      <ul>
+        <li class="active" data-target="home">🏠</li>
+        <li data-target="skills">💡</li>
+        <li data-target="projects">📁</li>
+        <li data-target="contact">✉️</li>
+      </ul>
+    </aside>
+
+      <section class="hero" id="home">
+          <div class="card">
+          <div class="avatar">
+              <img src="mikasa.jpg" class="pfp">  
+          </div>
+          <div class="aboutme">
+            <h1>Hi, I'm <span>Sujith</span></h1>
+          <h2>Aspiring Software Engineer</h2>
+          <p>
+            I am Student At SSN College of Engineering Competative Programmer,Intersted in <span>Web Development</span> Willing to learn new things every day consitant <span>Learner</span>
+          </p>
+          <div class="buttons">
+              <button class="primary">View My Work</button>
+              <button class="secondory">Download CV</button>
+          </div>
+          </div>
+      </div>
+      </section>
+      
+      <section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <div class="skill">
+    <span>HTML</span>
+    <div class="bar">
+      <div class="progress html" data-width="90%"></div>
+    </div>
+    <span class="percent">0%</span>
+  </div>
+  <div class="skill">
+    <span>CSS</span>
+    <div class="bar">
+      <div class="progress css" data-width="60%"></div>
+    </div>
+    <span class="percent">0%</span>
+  </div>
+
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="bar">
+      <div class="progress js" data-width="70%"></div>
+    </div>
+    <span class="percent">0%</span>
+  </div>
+
+  <div class="skill">
+    <span>DSA</span>
+    <div class="bar">
+      <div class="progress dsa" data-width="60%"></div>
+    </div>
+    <span class="percent">0%</span>
+  </div>
+</section>
+    <section class="projects" id="projects">
+          <h2>My projects</h2>
+          <div class="project-grid">
+              <div class="project-card">
+                  <h3>Portfolio Website</h3>
+                  <p>Mordern Portfolio Website Using HTML,CSS,JS</p>
+                  <span>HTML.CSS.JS</span>
+              </div>
+              <div class="project-card">
+              <h3>DSA Visualizer</h3>
+              <p>Interactive visualization of sorting and searching algorithms.</p>
+              <span>JavaScript • Data Structures</span>
+              </div>
+            <div class="project-card">
+              <h3>College Project</h3>
+              <p>AI-based system developed as part of academic project.</p>
+              <span>AI • ML • Python</span>
+            </div>
+          </div>
+    </section>
+    <section class="contact" id="contact">
+          <h2>Contact Me</h2>
+          <form class="contact-form">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Emain" required>
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" class="primary">Send Message</button>
+          </form>
+    </section>
+    </body>
+</html>
